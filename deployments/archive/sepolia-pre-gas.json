@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "chainId": 11155111,
+  "network": "Sepolia",
+  "deployedAt": "2026-09-11T15:29:52.150Z",
+  "blockNumber": "11682790",
+  "aqua": "0x2f478eb1726c83108f1363f01757bae7dfe9bed6",
+  "router": "0xee9bd9a83feaf9df60fe6ad0ced4bd30c3fd18e9",
+  "collateral": "0x39bc0f0658f0d79b8f923e98fd840a41cd65c85e",
+  "market": "0xb36c73b753424da9e7177a2b6b32310f4241eb4f",
+  "yes": "0x3250101B123877c69A2C9b2a6c3178f863cE0Fa3",
+  "no": "0x6649436b2F61F6760Dc8638ad41a187cBB3bf4c8",
+  "maker": "0xA816Fdc3ec3b1C32C7b22B18d9Bec2Ee88B7C431",
+  "resolver": "0xA816Fdc3ec3b1C32C7b22B18d9Bec2Ee88B7C431",
+  "question": "Will this project win ETHOnline 2026?",
+  "start": 1789140480,
+  "expiry": 1791730704,
+  "timeScaled": false,
+  "liquidity": "2506628274631000000000",
+  "order": {
+    "maker": "0xA816Fdc3ec3b1C32C7b22B18d9Bec2Ee88B7C431",
+    "traits": "28948022309345504152553859025372987423956659195481894094225317213215909740544",
+    "data": "0x3250101B123877c69A2C9b2a6c3178f863cE0Fa36649436b2F61F6760Dc8638ad41a187cBB3bf4c880a0000000000000000000000000b36c73b753424da9e7177a2b6b32310f4241eb4f000000000000000000000000000000000000000000000087e2748f17530d0600000000000000000000000000000000000000000000000000000000006aa41e00000000000000000000000000000000000000000000000000000000006acba4100000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "orderHash": "0x7b169d41745e52162c0fe71bdbb4b3d4fbee6e8bfdfdf8bf64d8c5f496bdfba1",
+  "sources": {
+    "swapVM": "afd99c408b4ed610027f4426c6f98650acac9f5f",
+    "aqua": "9c5c42e5840e8741fba3597c48456c9510212b66"
+  },
+  "receipts": [
+    {
+      "label": "Deploy Aqua",
+      "hash": "0xf4a26c1ff45c4738b63205eb0bd17071872bc8c680e3f882dc72d9b177176da4",
+      "blockNumber": "11682643",
+      "gasUsed": "595728"
+    },
+    {
+      "label": "Deploy DemoCollateral",
+      "hash": "0xf144d058e9bbbace30b8a334f1ca115e02844e69149dc362caac29a8720268cd",
+      "blockNumber": "11682644",
+      "gasUsed": "488945"
+    },
+    {
+      "label": "Deploy GaussVM",
+      "hash": "0x728204b4262b7b27a1512b1b89493905a464e0ad5036bf4d778b487c41dd5100",
+      "blockNumber": "11682645",
+      "gasUsed": "3601934"
+    },
+    {
+      "label": "Deploy BinaryMarket",
+      "hash": "0x398e2e8d01c59206fd3c0fe1b763e5d03a2e79214c7d6e124a60f3d5633f49a5",
+      "blockNumber": "11682790",
+      "gasUsed": "1961560"
+    },
+    {
+      "label": "faucet",
+      "hash": "0x007b03d2b8b91b416e21a2156fc85c1f1ad8e537707af83baa0f5a8fac182a2f",
+      "blockNumber": "11682791",
+      "gasUsed": "33488"
+    },
+    {
+      "label": "approve",
+      "hash": "0xba98df76a0d7bcc30f35a51a7d491689d4a184115eeee3977322230d2a1378d3",
+      "blockNumber": "11682792",
+      "gasUsed": "45969"
+    },
+    {
+      "label": "split",
+      "hash": "0x26ebd483bbe01fe4540b12876b37ecf89b316783abbb5d20f1019c7c65ae85e4",
+      "blockNumber": "11682793",
+      "gasUsed": "161737"
+    },
+    {
+      "label": "approve",
+      "hash": "0x2dce0e331f553abcd2b27e1c7b9a5191d11db345cf36b2e97a59cb2b0341774e",
+      "blockNumber": "11682795",
+      "gasUsed": "45969"
+    },
+    {
+      "label": "approve",
+      "hash": "0xa2cc39e2d42661bb5d46477a7221285468aafc774e0c1778ff3ad4573153f1fd",
+      "blockNumber": "11682796",
+      "gasUsed": "45969"
+    },
+    {
+      "label": "ship",
+      "hash": "0x844348604e7c3225e08c0133455c5c892987de16598743ceb06a8d8c72a6a36f",
+      "blockNumber": "11682797",
+      "gasUsed": "83257"
+    }
+  ],
+  "rpcUrl": "https://ethereum-sepolia-rpc.publicnode.com"
+}
